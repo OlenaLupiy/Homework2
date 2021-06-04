@@ -98,13 +98,15 @@ switch (true) {
   default:
     break;
 }
-
-if (currentHour >= 5 && currentHour <= 11) {
+//Task7.1.
+let date1 = new Date ();
+let currentHour1 = date1.getHours();
+if (currentHour1 >= 5 && currentHour1 <= 11) {
   alert("Доброго ранку");
-} else if (currentHour >= 11 && currentHour <= 17) {
+} else if (currentHour1 >= 11 && currentHour1 <= 17) {
   alert("Доброго дня");
-} else if (currentHour >= 17 && currentHour <= 23) {
+} else if (currentHour1 >= 17 && currentHour1 <= 23) {
   alert("Доброго вечора");
-} else if (currentHour >= 23 && currentHour < 5) {
+} else if (currentHour1 >= 23 && currentHour1 < 5) {
   alert("Доброї ночі");
 }
